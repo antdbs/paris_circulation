@@ -1,0 +1,118 @@
+[
+    {
+        "cod_ouvrag": "S00302",
+        "foyer": "S00302-04",
+        "lib_domain": "Signalisation Tricolore",
+        "lib_ouvrag": "Feux Tricolores",
+        "observatio": null,
+        "posx_ouvra": 651474.32353777,
+        "posy_ouvra": 6861602.82805643,
+        "lib_regime": "REGIME ROUGE",
+        "voievent_v": "29 / ANCIENNE COMEDIE / ODEON / SAINT GERMAIN",
+        "faceop_ouv": null,
+        "numvoie_ou": null,
+        "bister_ouv": null,
+        "nature_voi": "CR",
+        "lib_voie": "29 / ANCIENNE COMEDIE / ODEON / SAINT GERMAIN",
+        "lib_voiedo": "CARREFOURS",
+        "lib_secteu": "06_MONNAIE",
+        "lib_region": "Arrondissement 06",
+        "lib_regi_1": "STV Sud",
+        "cod_suppor": "0103003_MLA",
+        "lib_suppor": "BP31 Non Obturé (avec vis)",
+        "hauteur_su": 0.0,
+        "dureevie_s": 30.0,
+        "unitevie_s": "3",
+        "materiau_s": null,
+        "type_suppo": "Support SLT",
+        "lib_supp_1": "Support SLT standard",
+        "lib_fourni": null,
+        "cod_lumina": "60159955296_PAC",
+        "lib_lumina": "Phare 4 feux GROLLEAU (TOP)",
+        "modele_lum": null,
+        "dureevie_l": null,
+        "unitevie_l": "3",
+        "materiau_l": null,
+        "lib_lumi_1": "Phare 4 feux",
+        "lib_four_1": null,
+        "cod_lampe": "60150515760_CEN",
+        "lib_lampe": "SLT LED-Croix-200-Rouge-AXIMUM-FUTURLED-9,8W",
+        "pw_lampe": 9.0,
+        "pwc_lampe": 9.0,
+        "pwe_lampe": null,
+        "lib_lampef": "Source Phare diodes nouveaux",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    2.338693222967987,
+                    48.85263702783464
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 2.33869322297,
+            "lat": 48.8526370278
+        }
+    },
+    {
+        "cod_ouvrag": "S00302",
+        "foyer": "S00302-08",
+        "lib_domain": "Signalisation Tricolore",
+        "lib_ouvrag": "Feux Tricolores",
+        "observatio": null,
+        "posx_ouvra": 651474.32353777,
+        "posy_ouvra": 6861602.82805643,
+        "lib_regime": "REGIME ATTENDEZ",
+        "voievent_v": "29 / ANCIENNE COMEDIE / ODEON / SAINT GERMAIN",
+        "faceop_ouv": null,
+        "numvoie_ou": null,
+        "bister_ouv": null,
+        "nature_voi": "CR",
+        "lib_voie": "29 / ANCIENNE COMEDIE / ODEON / SAINT GERMAIN",
+        "lib_voiedo": "CARREFOURS",
+        "lib_secteu": "06_MONNAIE",
+        "lib_region": "Arrondissement 06",
+        "lib_regi_1": "STV Sud",
+        "cod_suppor": "0103003_MLA",
+        "lib_suppor": "BP31 Non Obturé (avec vis)",
+        "hauteur_su": 0.0,
+        "dureevie_s": 30.0,
+        "unitevie_s": "3",
+        "materiau_s": null,
+        "type_suppo": "Support SLT",
+        "lib_supp_1": "Support SLT standard",
+        "lib_fourni": null,
+        "cod_lumina": "60166246145_PAC",
+        "lib_lumina": "CP GIRARDIN équipable",
+        "modele_lum": null,
+        "dureevie_l": 15.0,
+        "unitevie_l": "3",
+        "materiau_l": null,
+        "lib_lumi_1": "Caisson Piéton",
+        "lib_four_1": null,
+        "cod_lampe": "60137540368_CEN",
+        "lib_lampe": "SLT LED-R12--Rouge-VEZON-Ancienne Géné-10W",
+        "pw_lampe": 10.0,
+        "pwc_lampe": 9.0,
+        "pwe_lampe": null,
+        "lib_lampef": "Source Piéton diodes existants",
+        "geo_shape": {
+            "type": "Feature",
+            "geometry": {
+                "coordinates": [
+                    2.338693222967987,
+                    48.85263702783464
+                ],
+                "type": "Point"
+            },
+            "properties": {}
+        },
+        "geo_point_2d": {
+            "lon": 2.33869322297,
+            "lat": 48.8526370278
+        }
+    }
+]
