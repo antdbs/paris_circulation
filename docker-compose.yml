@@ -39,7 +39,30 @@ services:
         ipv4_address: 172.20.0.4
     depends_on:
         - pgadmin
-
+  cleaning:
+    build: ./cleaning
+    container_name: cleaning
+    env_file:
+      - .env
+    ports:
+        - 5001:5001
+    networks:
+      app_network:
+        ipv4_address: 172.20.0.5
+    depends_on:
+        - pgadmin
+  data-viz:
+    build: ./data-viz
+    container_name: data-viz
+    env_file:
+      - .env
+    ports:
+        - 8501:8501
+    networks:
+      app_network:
+        ipv4_address: 172.20.0.6
+    depends_on:
+        - pgadmin
 networks:
   app_network:
     driver: bridge
