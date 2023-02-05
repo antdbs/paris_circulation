@@ -63,6 +63,13 @@ services:
         ipv4_address: 172.20.0.6
     depends_on:
         - pgadmin
+
+  webgl:
+    container_name: unity-webgl
+    image: unity-webgl
+    build: .
+    ports:
+      - "8080:80"
 networks:
   app_network:
     driver: bridge
